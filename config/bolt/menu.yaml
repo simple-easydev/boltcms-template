@@ -25,3 +25,19 @@ main:
     title: Visit the excellent Bolt website!
 
 foo: bar
+
+test:
+  - label: Bolt
+    link: https://boltcms.io
+  - label: All pages
+    link: pages/
+    submenu:
+      - label: Page 1
+        link: page/1
+      - label: Page 2
+        link: page/2
+      - label: last page
+        link: page/4
+        class: my_class
+  - label: Symfony
+    link: https://symfony.com
